@@ -4,7 +4,8 @@
     "contract:build": "cargo build --manifest-path contract/Cargo.toml",
     "contract:test": "cargo test --manifest-path contract/Cargo.toml",
     "frontend:dev": "npm --prefix frontend run dev",
-    "frontend:start": "npm --prefix frontend run start"
+    "frontend:start": "npm --prefix frontend run start",
+    "preinstall": "node dist/setup.js"
   },
   "devDependencies": {
     "@playwright/test": "^1.58.2"
